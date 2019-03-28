@@ -9,7 +9,7 @@ class Owner
     @species = species
     @name = name
     @@all << self
-    @pets = {[],[],[]}
+    @pets = {[], [], []}
   end
   
   def self.all
