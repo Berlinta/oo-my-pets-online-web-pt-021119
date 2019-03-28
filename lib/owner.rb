@@ -56,7 +56,7 @@ class Owner
   
   def sell_pets
     @pets.each { |k, v| }
-      v
+      v.each do 
     
   end
   
