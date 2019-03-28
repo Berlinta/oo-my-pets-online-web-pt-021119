@@ -43,7 +43,7 @@ class Owner
   end
   
   def walk_dogs
-    @pets[:dogs].collect { |dog| dog.mood == "happy" }
+    @pets[:dogs].collect { |dog| dog.mood = "happy" }
   end
   
   
