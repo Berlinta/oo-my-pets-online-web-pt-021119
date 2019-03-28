@@ -5,7 +5,8 @@ class Owner
   attr_accessor :name
   attr_reader :species
   
-  def initialize(name)
+  def initialize(species)
+    @species = species
     @name = name
     @@all << self
   end
