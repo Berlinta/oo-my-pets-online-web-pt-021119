@@ -55,7 +55,7 @@ class Owner
   end
   
   def sell_pets
-    @pets.collect { 
+    @pets.collect { |dog, cat, fish| dog.cat.fish.mood = "nervous" }
   end
   
   
