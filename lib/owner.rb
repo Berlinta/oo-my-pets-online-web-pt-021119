@@ -62,7 +62,9 @@ class Owner
     }
   end
   
-  
+  def list_pets
+    
+  end
   
   # describe "#walk_dogs" do
   # it "walks the dogs which makes the dogs' moods happy" do
